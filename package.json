@@ -1,6 +1,7 @@
 {
   "name": "ai-bid-bot",
   "private": true,
+  "author": "better-think",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
