@@ -4,8 +4,8 @@
 
 ![enter api key](./images/enter-api-key.png)
 
-## Select Project description and use the popup buttons
-- answer or proposal will be copied to your clipboard after generation.
+## Select Project description and use the buttons on popup 
+- Answer or proposal will be copied to your clipboard after generation.
 
 ![use the popup](./images/use.png)
 - Buttons
