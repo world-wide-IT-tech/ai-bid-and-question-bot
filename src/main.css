@@ -1,0 +1,14 @@
+.htEomY {
+    margin-right: 32px !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    button {
+        @apply py-px px-1.5;
+    }
+}

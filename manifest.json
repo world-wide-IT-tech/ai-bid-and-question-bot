@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "ai-bid-bot",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Popup",
+    "default_popup": "popup.html",
+    "default_icon": "logo192.png"
+  },
+  "icons": {},
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "public/*"
+      ],
+      "matches": ["https://*/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.upwork.com/*",
+        "https://*.freelancer.com/*"
+      ],
+      "js": ["src/main.tsx"],
+      "media": []
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs", 
+    "webNavigation",
+    "storage",
+    "contextMenus",
+    "clipboardWrite"   
+  ]
+}
